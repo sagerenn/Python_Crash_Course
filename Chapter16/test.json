@@ -1,0 +1,181 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1574064159000,
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_hour.geojson",
+        "title": "USGS Magnitude 1.0+ Earthquakes, Past Hour",
+        "status": 200,
+        "api": "1.8.1",
+        "count": 4
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.04,
+                "place": "10km E of Pahala, Hawaii",
+                "time": 1574063208890,
+                "updated": 1574063401980,
+                "tz": -600,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv71240461",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv71240461.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 64,
+                "net": "hv",
+                "code": "71240461",
+                "ids": ",hv71240461,",
+                "sources": ",hv,",
+                "types": ",geoserve,origin,phase-data,",
+                "nst": 38,
+                "dmin": 0.03669,
+                "rms": 0.11,
+                "gap": 174,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 2.0 - 10km E of Pahala, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.3801727,
+                    19.2045002,
+                    31.71
+                ]
+            },
+            "id": "hv71240461"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.21,
+                "place": "2km ENE of Pinnacles, CA",
+                "time": 1574062919790,
+                "updated": 1574063164335,
+                "tz": -480,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73305351",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc73305351.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 75,
+                "net": "nc",
+                "code": "73305351",
+                "ids": ",nc73305351,",
+                "sources": ",nc,",
+                "types": ",geoserve,nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 22,
+                "dmin": 0.07969,
+                "rms": 0.09,
+                "gap": 114,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 2.2 - 2km ENE of Pinnacles, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.1261673,
+                    36.5398331,
+                    7.07
+                ]
+            },
+            "id": "nc73305351"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.8,
+                "place": "119km SW of Gustavus, Alaska",
+                "time": 1574062915375,
+                "updated": 1574063148805,
+                "tz": -540,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak019esngoqs",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak019esngoqs.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 121,
+                "net": "ak",
+                "code": "019esngoqs",
+                "ids": ",ak019esngoqs,",
+                "sources": ",ak,",
+                "types": ",geoserve,origin,",
+                "nst": null,
+                "dmin": null,
+                "rms": 0.94,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.8 - 119km SW of Gustavus, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -137.1347,
+                    57.6326,
+                    38.7
+                ]
+            },
+            "id": "ak019esngoqs"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.1,
+                "place": "20km ESE of Little Lake, CA",
+                "time": 1574061300340,
+                "updated": 1574061932100,
+                "tz": -480,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci38250034",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci38250034.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 68,
+                "net": "ci",
+                "code": "38250034",
+                "ids": ",ci38250034,",
+                "sources": ",ci,",
+                "types": ",focal-mechanism,geoserve,nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 30,
+                "dmin": 0.05713,
+                "rms": 0.19,
+                "gap": 42,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.1 - 20km ESE of Little Lake, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.6913333,
+                    35.9013333,
+                    6.71
+                ]
+            },
+            "id": "ci38250034"
+        }
+    ],
+    "bbox": [
+        -155.3801727,
+        19.2045002,
+        6.71,
+        -117.6913333,
+        57.6326,
+        38.7
+    ]
+}

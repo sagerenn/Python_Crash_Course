@@ -1,0 +1,23 @@
+
+{% extends 'blogs/base.html' %}
+
+{% block page_header %}
+    <h2>
+        {{ post.title }}
+    </h2>
+{% endblock page_header %}
+
+{% block content %}
+
+    <p>
+        <a href="{% url 'blogs:edit_post' post.id %}">Edit</a>
+    </p>
+
+    <div class="jumbotron" style="word-wrap:break-word; ">
+        <p>
+            {{ post.text | linebreaks }}
+        </p>
+    </div>
+
+{% endblock content %}
+

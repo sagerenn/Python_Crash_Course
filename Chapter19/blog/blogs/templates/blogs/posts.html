@@ -1,0 +1,36 @@
+
+{% extends 'blogs/base.html' %}
+
+{% block page_header %}
+    <h3>Post List</h3>
+{% endblock page_header %}
+
+
+{% block content %}
+
+    <p>
+        <a href="{% url 'blogs:add_post' %}">Add post</a>
+    </p>
+
+    {% for post in posts %}
+        <div class="card mb-3">
+            <h4 class="card-header">
+                <a href="{% url 'blogs:post' post.id %}">{{ post.title }}</a>
+                <small>
+                    {{ post.timestamp | date:'Y-m-d H:i' }}
+                </small>
+            </h4>
+
+            <div class="card-body">
+                    {{ post|linebreaks }}
+            </div>
+        </div>
+    {% empty %}
+        <p>
+            There are nothing posts!
+        </p>
+    {% endfor %}
+
+
+{% endblock content %}
+

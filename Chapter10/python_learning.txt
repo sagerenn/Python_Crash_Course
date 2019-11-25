@@ -1,0 +1,7 @@
+1. list,tuple  -- Python
+2. dictionary  -- Python
+3. number and string  -- Python
+4. condition  -- Python
+5. loop  -- Python
+6. input  -- Python
+7. class, function, module  -- Python

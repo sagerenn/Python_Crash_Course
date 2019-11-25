@@ -1,0 +1,20 @@
+
+{% extends 'blogs/base.html' %}
+{% load bootstrap4 %}
+
+{% block content %}
+
+    <form action="{% url 'users:login' %}" method="POST" class="form">
+        {% csrf_token %}
+        {% bootstrap_form form %}
+
+        {% buttons %}
+        <button name='submit' class="btn btn-primary">
+            Login
+        </button>
+        <input type="hidden" name="next" value="{% url 'blogs:posts' %}" />
+        {% endbuttons %}
+    </form>
+
+{% endblock content %}
+
